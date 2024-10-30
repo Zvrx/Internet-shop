@@ -1,0 +1,57 @@
+{
+  "name": "client1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axois": "^0.0.1-security",
+    "bootstrap": "^5.2.3",
+    "emailjs-com": "^3.2.0",
+    "jwt-decode": "^3.1.2",
+    "mobx": "^6.7.0",
+    "mobx-react-lite": "^3.4.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "os-browserify": "^0.3.0",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.2",
+    "styled-components": "^5.3.10",
+    "sweetalert2": "^11.7.5",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.75.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
